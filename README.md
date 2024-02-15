@@ -13,9 +13,13 @@ Al momento de realizar la descarga, debemos realizar las siguientes acciones:
 1. Crear la base de datos, que para esta ocasión se va a llamar "bookreview", esta base de datos debemos crearla manualmente.
 2. Cambiar el nombre del archivo ".env.example" por ".env"
 3. Abrimos la solución desde visual studio code
-4. Abrimos la terminal y ejecutamos esta dos líneas de comando
+4. Abrimos la terminal y ejecutamos esta dos líneas de comando:
+   
    a. php artisan migrate --seed
+   
    b. npm run dev
+
+   
 Con estos pasos ya la aplicación debería estar funcionando con normalidad en tu equipo
 
 
